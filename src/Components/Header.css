@@ -1,14 +1,15 @@
-
+@import "../assets/fonts/fonts.css";
 .hero {
     position: relative;
     height: 650px;
 
-    background-image: url("../images/photo_5913772575202938628_y.jpg");
+    background-image: url("../assets/images/photo_5913772575202938628_y.jpg");
     background-size: cover;
     background-position: center;
 
     display: flex;
     align-items: center;
+    font-family: 'play';
 }
 
 .hero::before {
@@ -34,8 +35,9 @@
     font-size: 50px;
     line-height: 1.2;
     margin-bottom: 20px;
+    text-shadow: -20px 10px 20px rgba(0, 0, 0, 50);
 }
-
+ 
 .hero-content p {
     font-size: 20px;
     line-height: 1.8;

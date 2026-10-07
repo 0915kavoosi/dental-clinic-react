@@ -1,12 +1,15 @@
-import logo from "../images/photo_5913772575202938628_y.jpg";
+// import logo from "../assets/images/photo_5913772575202938628_y.jpg";
 import "./Header.css";
+import '../assets/fonts/fonts.css'
 
 function Header() {
     return (
         <header>
             <section className="hero">
                 <div className="hero-content">
-                    <h1>A beautiful smile, greater self-confidence.</h1>
+                    <h1 className="hero-title">A beautiful smile
+                      <span>, greater self-confidence.</span>  
+                    </h1>
                     <p>Providing specialized dental services using modern equipment.</p>
                     <button>Book an Appointment</button>
                 </div>

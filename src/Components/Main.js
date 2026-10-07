@@ -1,8 +1,8 @@
 import "./Main.css";
-import canalTreatment from '../images/Root-canal-treatment.jpeg'; //Root canal treatment
-import DentalVeneers from '../images/Dental-Veneers.jpeg'; //Laminate
-import DentalExamination from '../images/Dental-examination.jpeg'; //Dental examination
-import DentalScaling from '../images/Dental-scaling.jpeg';  //Dental scaling
+import canalTreatment from '../assets/images/Root-canal-treatment.jpeg'; //Root canal treatment
+import DentalVeneers from '../assets/images/Dental-Veneers.jpeg'; //Laminate
+import DentalExamination from '../assets/images/Dental-examination.jpeg'; //Dental examination
+import DentalScaling from '../assets/images/Dental-scaling.jpeg';  //Dental scaling //Dental-scaling.jpeg
 
 function Main() {
     return (
